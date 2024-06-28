@@ -25,7 +25,6 @@ const Contact = () => {
   };
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log(contactInfo);
     const response = await fetch("https://formspree.io/f/mqazzvob", {
       method: "POST",
       headers: {
