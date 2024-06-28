@@ -31,7 +31,7 @@ const Hero = () => {
       </div>
       <div className="mt-12">
         <a href="#contact">
-          <Button text="become a client" icon="/icons/arrow.svg" className="hover:bg-[#8E07CD] hover:bg-opacity-90 transition duration-300 ease-in-out transform hover:scale-110"/>
+          <Button type="button" text="become a client" icon="/icons/arrow.svg" className="hover:bg-[#8E07CD] hover:bg-opacity-90 transition duration-300 ease-in-out transform hover:scale-110"/>
         </a>
       </div>
     </div>

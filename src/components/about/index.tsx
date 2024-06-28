@@ -55,7 +55,7 @@ const About = () => {
                   href="https://docs.google.com/document/d/10nxt20JtdNSiZmspfe083rdIsT9lO0QH/edit?usp=sharing&ouid=115464084756163808041&rtpof=true&sd=true"
                   target="_blank"
                 >
-                  <Button text="View Resume" icon="/icons/arrow-down.svg" className="hover:bg-[#8E07CD] hover:bg-opacity-90 transition duration-300 ease-in-out transform hover:scale-110"/>
+                  <Button type="button" text="View Resume" icon="/icons/arrow-down.svg" className="hover:bg-[#8E07CD] hover:bg-opacity-90 transition duration-300 ease-in-out transform hover:scale-110"/>
                 </a>
               </div>
             </div>
