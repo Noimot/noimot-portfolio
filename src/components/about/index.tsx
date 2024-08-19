@@ -17,19 +17,17 @@ const About = () => {
         />
       </div>
       <section className="px-4 sm:px-10 py-7 rounded-xl border border-solid border-[#596D73] bg-[#030E12]">
-        <div className="flex items-center gap-x-2 pb-1">
-          <StarIcon color="#66139F" />
-          <p className="text-[#66139F] leading-5 text-base font-bold">About</p>
-          <StarIcon color="#66139F" />
-        </div>
         <div>
-          <h1 className="text-white tracking-[0.2px] leading-12 font-bold xs:text-2xl sm:text-4xl uppercase">
-            about me
-          </h1>
+          <div className="flex items-center gap-x-2 pb-1">
+            <h1 className="text-white tracking-[0.2px] leading-12 font-bold xs:text-2xl sm:text-4xl uppercase">
+              about me
+            </h1>
+          </div>
+
           <p className="text-[#C2D1D6] tracking-[0.09px] leading-6 text-base sm:text-lg pt-4">
             I'm a dedicated Frontend Developer with a passion for open source
             and continuous learning. I have experience working with HTML, CSS,
-            JavaScript, React, Nuxt.js, Tailwind CSS, and TypeScript.
+            JavaScript, React, Nuxt.js, Tailwind CSS, Nodejs, Mongodb and TypeScript.
           </p>
           <div className="mt-10">
             <h2 className="text-[#C2D1D6] tracking-[0.12px] leading-8 font-bold text-2xl capitalize">
@@ -52,10 +50,15 @@ const About = () => {
               </div>
               <div className="w-fit">
                 <a
-                  href="https://docs.google.com/document/d/10nxt20JtdNSiZmspfe083rdIsT9lO0QH/edit?usp=sharing&ouid=115464084756163808041&rtpof=true&sd=true"
+                  href="https://docs.google.com/document/d/1beBYbp8eaEIc4XD90EEryASvY1HYO7kb/edit?usp=sharing&ouid=115464084756163808041&rtpof=true&sd=true"
                   target="_blank"
                 >
-                  <Button type="button" text="View Resume" icon="/icons/arrow-down.svg" className="hover:bg-[#8E07CD] hover:bg-opacity-90 transition duration-300 ease-in-out transform hover:scale-110"/>
+                  <Button
+                    type="button"
+                    text="View Resume"
+                    icon="/icons/arrow-down.svg"
+                    className="hover:bg-[#8E07CD] hover:bg-opacity-90 transition duration-300 ease-in-out transform hover:scale-110"
+                  />
                 </a>
               </div>
             </div>
