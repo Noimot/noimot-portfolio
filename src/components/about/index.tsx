@@ -25,9 +25,8 @@ const About = () => {
           </div>
 
           <p className="text-[#C2D1D6] tracking-[0.09px] leading-6 text-base sm:text-lg pt-4">
-            I'm a dedicated Frontend Developer with a passion for open source
-            and continuous learning. I have experience working with HTML, CSS,
-            JavaScript, React, Nuxt.js, Tailwind CSS, Nodejs, Mongodb and TypeScript.
+            I'm a dedicated Frontend Developer with a passion for open source, continuous learning and mentoring. I have experience working with HTML, CSS,
+            JavaScript, React, Nextjs, Vite, Nuxtjs, Tailwind CSS, Nodejs, Mongodb and TypeScript.
           </p>
           <div className="mt-10">
             <h2 className="text-[#C2D1D6] tracking-[0.12px] leading-8 font-bold text-2xl capitalize">
