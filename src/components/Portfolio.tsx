@@ -37,7 +37,7 @@ const Portfolio = () => {
             className="w-full h-full object-fill rounded-xl"
           />
           <img
-            src="/icons/thembani.png"
+            src="/icons/pandamedical-chat-icon.png"
             alt=""
             className="w-full h-full object-fill rounded-xl"
           />
@@ -56,10 +56,11 @@ const Portfolio = () => {
         </Animate>
         <Animate type="fade-down" className="grid md:grid-cols-2 gap-7">
           <img
-            src="/icons/pandamedical-chat.png"
+            src="/icons/thembani-icon.png"
             alt=""
             className="w-full h-full object-fill rounded-xl"
           />
+          
           <img
             src="/icons/recipe-app.png"
             alt=""
