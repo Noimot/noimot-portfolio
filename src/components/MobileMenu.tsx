@@ -6,7 +6,7 @@ interface IMenu {
 }
 const MobileMenu = ({ menu, handleMenu }: IMenu) => {
   return (
-    <div className="bg-[#030E12] text-white fixed top-20 w-full pt-[27px] h-[547px] md:hidden transition-all ease-out duration-[3s]">
+    <div className="bg-[#030E12] text-white fixed left-0 top-20 px-4 w-full pt-[27px] h-[547px] md:hidden transition-all ease-out duration-[3s]">
       {/* <div className="flex items-center justify-between">
         <div>
           <img src={headerIcon} alt="" />

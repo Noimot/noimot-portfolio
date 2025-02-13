@@ -6,16 +6,10 @@ import { StarIcon } from "../shared/Star";
 const About = () => {
   return (
     <main
-      className="mx-10 lg:mx-28 xl:mx-[150px] relative mt-60 xs:mt-96 sm:mt-[420px] z-10"
+      className="mx-10 lg:mx-28 xl:mx-[150px] relative mt-44 z-10"
       id="about"
     >
-      <div className="absolute -top-[200px] xxs:-top-[250px] xs:-top-[300px] sm:-top-[400px] right-10 -z-10 mt-10">
-        <img
-          src="/icons/me.png"
-          alt=""
-          className="w-full h-full object-contain"
-        />
-      </div>
+     
       <section className="px-4 sm:px-10 py-7 rounded-xl border border-solid border-[#596D73] bg-[#030E12]">
         <div>
           <div className="flex items-center gap-x-2 pb-1">

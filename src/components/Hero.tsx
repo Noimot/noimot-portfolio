@@ -5,12 +5,22 @@ import { StarIcon } from "./shared/Star";
 
 const Hero = () => {
   return (
-    <div className="w-full bg-animate-logo bg-contain bg-no-repeat bg-center sm:h-[calc(100vh-80px)] flex flex-col items-center justify-center pt-32 sm:pt-0 px-10 lg:px-28 xl:px-40"
+    <div className="w-full bg-combined bg-contain bg-no-repeat bg-center sm:h-[calc(100vh-80px)] flex flex-col items-center justify-center pt-20 px-10 lg:px-28 xl:px-40 relative"
     style={{
       animation: 'backgroundTransition 10s infinite',
     }}
     >
-      {/* <img src={animateLogo} alt="" /> */}
+      {/* <img src={animateLogo} alt="" /> */} 
+      {/* <div className="absolute top-24 right-[45%] "> */}
+        <div className="h-[200px] w-[200px] rounded-full flex items-center justify-center bg-[radial-gradient(circle,_rgb(0,0,0)_50%,_rgba(0,0,0,0)_66%)] animate-fadeIn">
+        <img
+          src="/icons/me.png"
+          alt=""
+          className="w-full h-full object-cover rounded-full"
+        />
+        </div>
+        
+      {/* </div> */}
       <div>
         <div className="">
           <div className="flex items-center gap-x-2">
