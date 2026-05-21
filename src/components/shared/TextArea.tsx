@@ -11,7 +11,7 @@ const TextArea = ({
 }) => {
   return (
     <div
-      className={`w-full border-[#86A3AD] border-[0.5px] border-solid rounded-3xl`}
+      className={`w-full border-[#D1D9DE] dark:border-[#86A3AD] border-[0.5px] border-solid rounded-3xl`}
     >
       <textarea
         name={name}

@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     fontFamily: {
@@ -32,6 +33,8 @@ module.exports = {
         "thembani": "url('../public/icons/thembani-icon.png')",
         "recipe-app": "url('../public/icons/recipe-app.png')",
         "miatech": "url('../public/icons/miatech.png')",
+        "solv-admin": "url('../public/icons/solv-admin.png')",
+        "solv-worker": "url('../public/icons/solv-worker.png')",
       },
       keyframes: {
         fadeIn: {

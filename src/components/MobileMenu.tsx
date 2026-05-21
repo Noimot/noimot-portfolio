@@ -1,48 +1,25 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 interface IMenu {
-    menu: boolean;
-    handleMenu: () => void;
+  menu: boolean;
+  handleMenu: () => void;
 }
 const MobileMenu = ({ menu, handleMenu }: IMenu) => {
   return (
-    <div className="bg-[#030E12] text-white fixed left-0 top-20 px-4 w-full pt-[27px] h-[547px] md:hidden transition-all ease-out duration-[3s]">
-      {/* <div className="flex items-center justify-between">
-        <div>
-          <img src={headerIcon} alt="" />
-        </div>
-        <div
-          className="flex flex-col gap-y-1 md:hidden cursor-pointer"
-          onClick={handleMenu}
-        >
-          <span
-            className={`inline-block  bg-[#14142B] border-solid border-2 w-6 border-[#14142B] origin-left ease-in transition-all duration-[2s] ${
-              menu && "rotate-45"
-            }`}
-          />
-          <span
-            className={`inline-block  bg-[#14142B] border-solid border-2 w-6 border-[#14142B] origin-left ease-in transition-all duration-[2s] ${
-              menu && "opacity-0"
-            }`}
-          />
-          <span
-            className={`inline-block  bg-[#14142B] border-solid border-2 w-6 border-[#14142B] origin-left ease-in transition-all duration-[2s] ${
-              menu && "-rotate-45"
-            }`}
-          />
-        </div>
-      </div> */}
-      <ul className="flex flex-col gap-y-[58px] pt-[37px]" onClick={handleMenu}>
-        <li className="capitalize text-base leading-4 ">
-          <a href="#about">About me</a>
+    <div className="bg-[#F5F7FA] text-[#1A1A2E] dark:bg-[#030E12] dark:text-white fixed left-0 top-20 px-4 w-full pt-[27px] h-[547px] md:hidden transition-all ease-out duration-[3s]">
+      <ul className="flex flex-col gap-y-[58px] pt-[37px]">
+        <li className="capitalize text-base leading-4">
+          <Link to="/" onClick={handleMenu}>Home</Link>
         </li>
         <li className="capitalize text-base leading-4">
-          <a href="#portfolio">portfolio</a>
+          <Link to="/about" onClick={handleMenu}>About me</Link>
         </li>
         <li className="capitalize text-base leading-4">
-          <a href="#contact">
-            Contact
-          </a>
+          <Link to="/portfolio" onClick={handleMenu}>Portfolio</Link>
+        </li>
+        <li className="capitalize text-base leading-4">
+          <Link to="/contact" onClick={handleMenu}>Contact</Link>
         </li>
       </ul>
     </div>
