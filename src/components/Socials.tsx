@@ -22,6 +22,7 @@ const Socials = () => {
         <a
           href="https://www.notion.so/Noimot-Alabi-6396693475fc4e31bc24c92a54a701bb?pvs=4"
           target="_blank"
+          rel="noreferrer"
           className="hidden xs:block"
         >
           <ImageProp src="/icons/notion.png" imgClassName="w-6 h-6" />
@@ -29,12 +30,14 @@ const Socials = () => {
         <a
           href="https://www.linkedin.com/in/noimot-alabi-996227129/"
           target="_blank"
+          rel="noreferrer"
         >
           <ImageProp src="/icons/linkedin.svg" className="bg-[#0A66C2]" />
         </a>
         <a
           href="https://www.linkedin.com/in/noimot-alabi-996227129/"
           target="_blank"
+          rel="noreferrer"
         >
           <ImageProp src="/linkedin.svg" className="bg-[#0A66C2]" />
         </a>
