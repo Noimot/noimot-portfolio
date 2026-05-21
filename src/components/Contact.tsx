@@ -1,10 +1,8 @@
 import React, { useState } from "react";
 import { StarIcon } from "./shared/Star";
-import ImageProp from "./shared/ImageProp";
 import TextField from "./shared/TextField";
 import TextArea from "./shared/TextArea";
 import Button from "./shared/Button";
-import Socials from "./Socials";
 import toast from "react-hot-toast";
 
 const Contact = () => {
