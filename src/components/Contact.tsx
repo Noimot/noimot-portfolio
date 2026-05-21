@@ -47,7 +47,7 @@ const Contact = () => {
 
   return (
     <section
-      className="w-full mt-44  flex gap-x-5 px-10 lg:px-28 xl:px-40"
+      className="w-full mt-20  flex gap-x-5 px-10 lg:px-28 xl:px-40"
       id="contact"
     >
       <div className="space-y-8 w-full">
@@ -59,7 +59,7 @@ const Contact = () => {
             </p>
             <StarIcon color="#007591" />
           </div>
-          <h1 className="text-white font-bold tracking-[0.4px] leading-12 text-4xl capitalize">
+          <h1 className="text-[#1A1A2E] dark:text-white font-bold tracking-[0.4px] leading-12 text-4xl capitalize">
             Reach Out, Let’s Make Magic Together!
           </h1>
         </div>
