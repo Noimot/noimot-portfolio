@@ -1,6 +1,5 @@
 import React, { useRef, useEffect, useCallback } from "react";
 import AboutDetail from "../shared/AboutDetail";
-import Button from "../shared/Button";
 import { StarIcon } from "../shared/Star";
 import Animate from "../shared/Animate";
 
